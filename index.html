@@ -1,0 +1,1215 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- PERSONALIZAR: título, descripción y nombre del negocio -->
+    <meta
+      name="description"
+      content="Invitaciones digitales elegantes para bodas, quinceañeras, XV años y más. Diseño personalizado, cuenta regresiva, RSVP y entrega en 48 horas."
+    />
+    <title>Momentos Digitales — Invitaciones Digitales de Lujo</title>
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Fonts: Playfair Display + DM Sans -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- ============================================================
+     NAVIGATION
+    ============================================================ -->
+    <header class="nav" id="nav">
+      <div class="nav-inner">
+        <!-- PERSONALIZAR: Nombre y logo del negocio -->
+        <a href="#" class="nav-brand">
+          <span class="brand-mark"
+            ><i class="fas fa-envelope-open-heart"></i
+          ></span>
+          <span class="brand-name">Momentos Digitales</span>
+        </a>
+
+        <nav class="nav-links" aria-label="Navegación">
+          <a href="#servicios" class="nav-link">Servicios</a>
+          <a href="#ejemplos" class="nav-link">Ejemplos</a>
+          <a href="#precios" class="nav-link">Precios</a>
+          <a href="#faq" class="nav-link">FAQ</a>
+        </nav>
+
+        <div class="nav-actions">
+          <!-- PERSONALIZAR: Cambia el número de WhatsApp en todos los enlaces wa.me -->
+          <a
+            href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20me%20interesa%20cotizar%20una%20invitaci%C3%B3n%20digital"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-wa nav-wa"
+          >
+            <i class="fab fa-whatsapp"></i> Cotizar ahora
+          </a>
+          <button
+            class="nav-hamburger"
+            id="hamburger"
+            aria-label="Abrir menú"
+            aria-expanded="false"
+          >
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Drawer -->
+    <div
+      class="mobile-drawer"
+      id="mobileDrawer"
+      aria-hidden="true"
+      role="dialog"
+      aria-modal="true"
+    >
+      <button class="drawer-close" id="drawerClose" aria-label="Cerrar menú">
+        <i class="fas fa-times"></i>
+      </button>
+      <nav>
+        <a href="#servicios">Servicios</a>
+        <a href="#ejemplos">Ejemplos</a>
+        <a href="#precios">Precios</a>
+        <a href="#faq">Preguntas Frecuentes</a>
+        <a
+          href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20me%20interesa%20cotizar%20una%20invitaci%C3%B3n%20digital"
+          target="_blank"
+          class="drawer-wa"
+        >
+          <i class="fab fa-whatsapp"></i> Cotizar por WhatsApp
+        </a>
+      </nav>
+    </div>
+
+    <main>
+      <!-- ============================================================
+     HERO
+    ============================================================ -->
+      <section class="hero" id="hero">
+        <div class="hero-bg" aria-hidden="true">
+          <div class="hero-orb hero-orb-1"></div>
+          <div class="hero-orb hero-orb-2"></div>
+          <div class="hero-grid"></div>
+        </div>
+
+        <div class="hero-inner">
+          <!-- Left: Copy -->
+          <div class="hero-copy">
+            <div class="hero-badge">
+              <span class="hero-badge-dot"></span>
+              Diseño · Bodas · Quinceañeras · Cumpleaños
+            </div>
+
+            <h1 class="hero-heading">
+              La invitación perfecta,
+              <em>lista para compartir</em>
+              en minutos
+            </h1>
+
+            <p class="hero-sub">
+              Invitaciones digitales de lujo con cuenta regresiva en vivo,
+              galería de fotos, confirmación de asistencia y música — entregadas
+              en 48 horas.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#precios" class="btn btn-gold">
+                Ver paquetes <i class="fas fa-arrow-down"></i>
+              </a>
+              <a
+                href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20me%20interesa%20cotizar%20una%20invitaci%C3%B3n%20digital"
+                target="_blank"
+                rel="noopener"
+                class="btn btn-wa"
+              >
+                <i class="fab fa-whatsapp"></i> Hablar por WhatsApp
+              </a>
+            </div>
+
+            <div class="hero-trust">
+              <div class="trust-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="fas fa-star"></i>
+                <span>4.9 / 5</span>
+              </div>
+              <span class="trust-div">·</span>
+              <span>+500 invitaciones creadas</span>
+              <span class="trust-div">·</span>
+              <span>Entrega garantizada en 48h</span>
+            </div>
+          </div>
+
+          <!-- Right: Phone Mockup -->
+          <div class="hero-visual" aria-hidden="true">
+            <div class="phone-glow"></div>
+            <div class="phone-frame">
+              <div class="phone-notch"></div>
+              <div class="phone-screen">
+                <div class="mock-hero-area">
+                  <p class="mock-pre">Para siempre comienza aquí</p>
+                  <h3 class="mock-names">María &amp; Carlos</h3>
+                  <div class="mock-divider">
+                    <div class="mock-line"></div>
+                    <div class="mock-diamond"></div>
+                    <div class="mock-line"></div>
+                  </div>
+                  <p class="mock-date">15 · Marzo · 2025</p>
+                </div>
+                <div class="mock-countdown">
+                  <div class="mock-cd">
+                    <span class="mock-cd-num">45</span>
+                    <span class="mock-cd-lbl">Días</span>
+                  </div>
+                  <span class="mock-cd-sep">:</span>
+                  <div class="mock-cd">
+                    <span class="mock-cd-num">12</span>
+                    <span class="mock-cd-lbl">Horas</span>
+                  </div>
+                  <span class="mock-cd-sep">:</span>
+                  <div class="mock-cd">
+                    <span class="mock-cd-num">30</span>
+                    <span class="mock-cd-lbl">Mins</span>
+                  </div>
+                </div>
+                <div class="mock-nav-pills">
+                  <span>Historia</span>
+                  <span class="active">Detalles</span>
+                  <span>Galería</span>
+                </div>
+                <div class="mock-rsvp">Confirmar Asistencia ♥</div>
+                <div class="mock-music-bar">
+                  <i class="fas fa-music"></i>
+                  <div class="mock-music-track">
+                    <span>Perfect · Ed Sheeran</span>
+                    <div class="mock-progress">
+                      <div class="mock-progress-fill"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating badges -->
+            <div class="float-badge float-badge-1">
+              <i class="fas fa-check-circle"></i> RSVP automático
+            </div>
+            <div class="float-badge float-badge-2">
+              <i class="fas fa-images"></i> Galería incluida
+            </div>
+            <div class="float-badge float-badge-3">
+              <i class="fas fa-moon"></i> Modo oscuro
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-scroll-hint" aria-hidden="true">
+          <span>Descubre más</span>
+          <div class="hero-scroll-line"></div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+     STATS BAR
+    ============================================================ -->
+      <div class="stats-bar">
+        <div class="stats-inner">
+          <div class="stat">
+            <span class="stat-num">500<span class="stat-plus">+</span></span>
+            <span class="stat-lbl">Invitaciones creadas</span>
+          </div>
+          <div class="stat-sep"></div>
+          <div class="stat">
+            <span class="stat-num"
+              >4.9<i
+                class="fas fa-star"
+                style="font-size: 0.8em; color: var(--gold)"
+              ></i
+            ></span>
+            <span class="stat-lbl">Calificación promedio</span>
+          </div>
+          <div class="stat-sep"></div>
+          <div class="stat">
+            <span class="stat-num">48<span class="stat-plus">h</span></span>
+            <span class="stat-lbl">Entrega garantizada</span>
+          </div>
+          <div class="stat-sep"></div>
+          <div class="stat">
+            <span class="stat-num">100<span class="stat-plus">%</span></span>
+            <span class="stat-lbl">Satisfacción garantizada</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============================================================
+     SERVICES
+    ============================================================ -->
+      <section class="section services-section" id="servicios">
+        <div class="container">
+          <header class="section-header reveal-up">
+            <span class="eyebrow">Especialistas en</span>
+            <h2 class="section-title">Creamos para cada ocasión especial</h2>
+            <p class="section-sub">
+              Desde bodas íntimas hasta grandes celebraciones — diseñamos la
+              invitación perfecta para cada momento de vida.
+            </p>
+          </header>
+
+          <div class="services-grid">
+            <div class="service-card reveal-up" style="--sd: 0s">
+              <div class="service-icon" style="--ic: #c9a96e; --ib: #fdf6e8">
+                <i class="fas fa-ring"></i>
+              </div>
+              <h3>Bodas</h3>
+              <p>
+                Invitaciones de lujo con nuestra historia, galería, agenda,
+                cuenta regresiva, RSVP y música de fondo.
+              </p>
+              <a href="#precios" class="service-link"
+                >Ver paquetes <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+
+            <div class="service-card reveal-up" style="--sd: 0.08s">
+              <div class="service-icon" style="--ic: #e879a0; --ib: #fde8f2">
+                <i class="fas fa-crown"></i>
+              </div>
+              <h3>Quinceañeras</h3>
+              <p>
+                Diseños mágicos y temáticos para el día más especial de una
+                chica, con video, fotos y confirmación.
+              </p>
+              <a
+                href="https://wa.me/521XXXXXXXXXX"
+                target="_blank"
+                class="service-link"
+                >Cotizar <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+
+            <div class="service-card reveal-up" style="--sd: 0.16s">
+              <div class="service-icon" style="--ic: #7c3aed; --ib: #ede9fe">
+                <i class="fas fa-wand-sparkles"></i>
+              </div>
+              <h3>XV Años</h3>
+              <p>
+                Elegantes y completamente personalizadas con paleta de colores,
+                tema y los detalles únicos de la festejada.
+              </p>
+              <a
+                href="https://wa.me/521XXXXXXXXXX"
+                target="_blank"
+                class="service-link"
+                >Cotizar <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+
+            <div class="service-card reveal-up" style="--sd: 0.24s">
+              <div class="service-icon" style="--ic: #f59e0b; --ib: #fef3c7">
+                <i class="fas fa-cake-candles"></i>
+              </div>
+              <h3>Cumpleaños</h3>
+              <p>
+                Coloridas, dinámicas y llenas de personalidad. Perfectas para
+                niños, jóvenes y adultos por igual.
+              </p>
+              <a
+                href="https://wa.me/521XXXXXXXXXX"
+                target="_blank"
+                class="service-link"
+                >Cotizar <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+
+            <div class="service-card reveal-up" style="--sd: 0.32s">
+              <div class="service-icon" style="--ic: #10b981; --ib: #d1fae5">
+                <i class="fas fa-baby"></i>
+              </div>
+              <h3>Baby Shower</h3>
+              <p>
+                Tiernas y delicadas invitaciones para celebrar la llegada de un
+                nuevo integrante a la familia.
+              </p>
+              <a
+                href="https://wa.me/521XXXXXXXXXX"
+                target="_blank"
+                class="service-link"
+                >Cotizar <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+
+            <div class="service-card reveal-up" style="--sd: 0.4s">
+              <div class="service-icon" style="--ic: #3b82f6; --ib: #dbeafe">
+                <i class="fas fa-briefcase"></i>
+              </div>
+              <h3>Corporativo</h3>
+              <p>
+                Invitaciones profesionales para lanzamientos, congresos,
+                aniversarios de empresa y eventos corporativos.
+              </p>
+              <a
+                href="https://wa.me/521XXXXXXXXXX"
+                target="_blank"
+                class="service-link"
+                >Cotizar <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+     PROCESS
+    ============================================================ -->
+      <section class="section process-section" id="proceso">
+        <div class="container">
+          <header class="section-header reveal-up">
+            <span class="eyebrow">Así de fácil</span>
+            <h2 class="section-title">Tu invitación lista en 3 pasos</h2>
+            <p class="section-sub">
+              Sin complicaciones, sin filas, sin papelerías. Solo cuéntanos de
+              tu evento y nosotros hacemos la magia.
+            </p>
+          </header>
+
+          <div class="process-wrap">
+            <div class="process-step reveal-left">
+              <div class="step-num">01</div>
+              <div class="step-icon-wrap">
+                <i class="fas fa-comment-dots"></i>
+              </div>
+              <h3>Cuéntanos de tu evento</h3>
+              <p>
+                Compártenos la fecha, el lugar, el tema y los detalles que hacen
+                único tu evento. Por WhatsApp, rápido y sin formularios
+                complicados.
+              </p>
+            </div>
+            <div class="process-arrow reveal-up" aria-hidden="true">
+              <i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="process-step reveal-up">
+              <div class="step-num">02</div>
+              <div class="step-icon-wrap">
+                <i class="fas fa-wand-magic-sparkles"></i>
+              </div>
+              <h3>Diseñamos y ajustamos</h3>
+              <p>
+                Creamos tu propuesta y ajustamos los detalles hasta que quede
+                exactamente como la imaginaste. Revisiones incluidas sin costo
+                extra.
+              </p>
+            </div>
+            <div class="process-arrow reveal-up" aria-hidden="true">
+              <i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="process-step reveal-right">
+              <div class="step-num">03</div>
+              <div class="step-icon-wrap">
+                <i class="fas fa-share-nodes"></i>
+              </div>
+              <h3>Comparte y celebra</h3>
+              <p>
+                Recibes tu link en 48 horas listo para compartir por WhatsApp o
+                redes sociales, y empiezas a recibir confirmaciones al instante.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+     PORTFOLIO / EXAMPLES
+    ============================================================ -->
+      <section class="section portfolio-section" id="ejemplos">
+        <div class="container">
+          <header class="section-header reveal-up">
+            <span class="eyebrow">Portafolio</span>
+            <h2 class="section-title">Mira ejemplos reales</h2>
+            <p class="section-sub">
+              Cada invitación es única. Aquí algunos de los diseños que más han
+              enamorado a nuestros clientes.
+            </p>
+          </header>
+
+          <!-- Example 1: Wedding -->
+          <div class="port-row reveal-left">
+            <div class="port-device">
+              <div class="port-phone">
+                <div class="port-notch"></div>
+                <div class="port-screen port-wedding">
+                  <p class="pw-pre">Para siempre comienza aquí</p>
+                  <h4 class="pw-names">Sofía &amp; Eduardo</h4>
+                  <div class="pw-divider">
+                    <div class="pw-line"></div>
+                    <div class="pw-diamond"></div>
+                    <div class="pw-line"></div>
+                  </div>
+                  <p class="pw-date">8 · Junio · 2025</p>
+                  <div class="pw-cd">
+                    <div><span>122</span><small>Días</small></div>
+                    <div><span>08</span><small>Hrs</small></div>
+                    <div><span>45</span><small>Min</small></div>
+                  </div>
+                  <div class="pw-tags">
+                    <span><i class="fas fa-map-pin"></i> Hacienda del Sol</span>
+                    <span><i class="fas fa-camera"></i> Galería</span>
+                  </div>
+                  <div class="pw-btn">Confirmar Asistencia ♥</div>
+                </div>
+              </div>
+            </div>
+            <div class="port-info">
+              <span class="port-tag">Boda Premium</span>
+              <h3>Historia, galería, agenda, música y más</h3>
+              <p>
+                La experiencia completa para que tus invitados vivan la boda
+                desde el momento en que abren el link. Diseño de lujo con todos
+                los detalles que importan.
+              </p>
+              <ul class="port-feat-list">
+                <li><i class="fas fa-check"></i> Nuestra historia con fotos</li>
+                <li>
+                  <i class="fas fa-check"></i> Galería interactiva con lightbox
+                </li>
+                <li>
+                  <i class="fas fa-check"></i> Reproductor de música flotante
+                </li>
+                <li><i class="fas fa-check"></i> Libro de visitas digital</li>
+                <li><i class="fas fa-check"></i> Cortejo nupcial completo</li>
+              </ul>
+              <a href="#precios" class="btn btn-outline-navy"
+                >Ver paquete Premium</a
+              >
+            </div>
+          </div>
+
+          <!-- Example 2: Quince -->
+          <div class="port-row port-row-rev reveal-right">
+            <div class="port-info port-info-alt">
+              <span class="port-tag port-tag-quince">Quinceañera</span>
+              <h3>Temática y completamente personalizada</h3>
+              <p>
+                Colores, tipografías y elementos únicos que capturan la esencia
+                y personalidad de la festejada. Un diseño que ella recordará
+                para siempre.
+              </p>
+              <ul class="port-feat-list">
+                <li><i class="fas fa-check"></i> Paleta de colores a elegir</li>
+                <li>
+                  <i class="fas fa-check"></i> Galería de fotos de la festejada
+                </li>
+                <li>
+                  <i class="fas fa-check"></i> Agenda de actividades del día
+                </li>
+                <li><i class="fas fa-check"></i> Confirmación de asistencia</li>
+                <li><i class="fas fa-check"></i> Mapa del venue</li>
+              </ul>
+              <a
+                href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20me%20interesa%20cotizar%20una%20invitaci%C3%B3n%20de%20Quincea%C3%B1era"
+                target="_blank"
+                class="btn btn-outline-navy"
+                >Cotizar Quinceañera</a
+              >
+            </div>
+            <div class="port-device">
+              <div class="port-phone">
+                <div class="port-notch"></div>
+                <div class="port-screen port-quince">
+                  <p class="pq-pre">❋ Mis XV Años ❋</p>
+                  <h4 class="pq-names">Valentina</h4>
+                  <div class="pq-divider"></div>
+                  <p class="pq-date">22 · Noviembre · 2025</p>
+                  <div class="pq-cd">
+                    <div><span>220</span><small>Días</small></div>
+                    <div><span>15</span><small>Hrs</small></div>
+                    <div><span>00</span><small>Min</small></div>
+                  </div>
+                  <div class="pq-tags">
+                    <span
+                      ><i class="fas fa-location-dot"></i> Salón Versalles</span
+                    >
+                    <span><i class="fas fa-music"></i> Música</span>
+                  </div>
+                  <div class="pq-btn">Confirmar Asistencia ✦</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+     FEATURES (Dark section)
+    ============================================================ -->
+      <section class="features-section" id="caracteristicas">
+        <div class="features-bg" aria-hidden="true">
+          <div class="feat-orb feat-orb-1"></div>
+          <div class="feat-orb feat-orb-2"></div>
+        </div>
+        <div class="container">
+          <div class="features-wrap">
+            <div class="features-copy reveal-left">
+              <span class="eyebrow feat-eyebrow">Todo incluido</span>
+              <h2 class="feat-title">
+                Sin sorpresas.<br />Sin extras ocultos.
+              </h2>
+              <p class="feat-sub">
+                No solo creamos una página web — creamos una experiencia que
+                emociona a tus invitados desde el momento en que abren el link.
+              </p>
+              <div class="feat-guarantee">
+                <div class="feat-guarantee-icon">
+                  <i class="fas fa-shield-halved"></i>
+                </div>
+                <div>
+                  <strong>Satisfacción garantizada</strong>
+                  <p>
+                    Si no quedas satisfecho(a) con el resultado, te hacemos los
+                    ajustes que sean necesarios sin costo adicional.
+                  </p>
+                </div>
+              </div>
+              <a
+                href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20me%20interesa%20cotizar%20una%20invitaci%C3%B3n%20digital"
+                target="_blank"
+                class="btn btn-gold"
+                style="margin-top: 32px"
+              >
+                <i class="fab fa-whatsapp"></i> Empezar mi invitación
+              </a>
+            </div>
+
+            <div class="features-list reveal-right">
+              <div class="feat-item">
+                <div class="feat-icon">
+                  <i class="fas fa-mobile-screen-button"></i>
+                </div>
+                <div>
+                  <h4>100% responsive</h4>
+                  <p>
+                    Se ve perfecto en cualquier teléfono, tablet o computadora.
+                  </p>
+                </div>
+              </div>
+              <div class="feat-item">
+                <div class="feat-icon"><i class="fas fa-clock"></i></div>
+                <div>
+                  <h4>Cuenta regresiva en vivo</h4>
+                  <p>
+                    Días, horas, minutos y segundos exactos hasta el gran
+                    momento.
+                  </p>
+                </div>
+              </div>
+              <div class="feat-item">
+                <div class="feat-icon"><i class="fas fa-check-circle"></i></div>
+                <div>
+                  <h4>RSVP / Confirmación</h4>
+                  <p>
+                    Tus invitados confirman con un clic. Recibes toda la
+                    información organizada.
+                  </p>
+                </div>
+              </div>
+              <div class="feat-item">
+                <div class="feat-icon"><i class="fas fa-images"></i></div>
+                <div>
+                  <h4>Galería de fotos</h4>
+                  <p>
+                    Muestra tus fotos favoritas con diseño elegante y lightbox
+                    interactivo.
+                  </p>
+                </div>
+              </div>
+              <div class="feat-item">
+                <div class="feat-icon"><i class="fas fa-music"></i></div>
+                <div>
+                  <h4>Música de fondo</h4>
+                  <p>
+                    La canción que los representa, sonando desde el primer
+                    momento.
+                  </p>
+                </div>
+              </div>
+              <div class="feat-item">
+                <div class="feat-icon">
+                  <i class="fas fa-map-location-dot"></i>
+                </div>
+                <div>
+                  <h4>Mapa integrado</h4>
+                  <p>
+                    Ubicación exacta del evento con enlace directo a Google
+                    Maps.
+                  </p>
+                </div>
+              </div>
+              <div class="feat-item">
+                <div class="feat-icon"><i class="fas fa-moon"></i></div>
+                <div>
+                  <h4>Modo oscuro / claro</h4>
+                  <p>Diseño adaptable para verse bien de día y de noche.</p>
+                </div>
+              </div>
+              <div class="feat-item">
+                <div class="feat-icon"><i class="fas fa-headset"></i></div>
+                <div>
+                  <h4>Soporte por WhatsApp</h4>
+                  <p>
+                    Acompañamiento durante todo el proceso y ajustes de último
+                    momento.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+     PRICING
+    ============================================================ -->
+      <section class="section pricing-section" id="precios">
+        <div class="container">
+          <header class="section-header reveal-up">
+            <span class="eyebrow">Paquetes de boda</span>
+            <h2 class="section-title">Elige la experiencia perfecta</h2>
+            <p class="section-sub">
+              Todos los paquetes incluyen link personalizado, revisiones
+              ilimitadas durante el diseño y soporte por WhatsApp.
+            </p>
+          </header>
+
+          <div class="pricing-grid">
+            <!-- Básico -->
+            <div class="pricing-card reveal-left">
+              <div class="pricing-top">
+                <span class="plan-name">Básico</span>
+                <p class="plan-desc">
+                  Elegante y funcional para celebrar con estilo.
+                </p>
+                <div class="plan-price">
+                  <span class="price-sign">$</span>
+                  <span class="price-amount">350</span>
+                  <span class="price-curr">MXN</span>
+                </div>
+              </div>
+              <ul class="plan-features">
+                <li class="f-yes">
+                  <i class="fas fa-check"></i>Diseño con plantilla personalizada
+                </li>
+                <li class="f-yes">
+                  <i class="fas fa-check"></i>Nombres, fecha y lugar del evento
+                </li>
+                <li class="f-yes">
+                  <i class="fas fa-check"></i>Cuenta regresiva en vivo
+                </li>
+                <li class="f-yes">
+                  <i class="fas fa-check"></i>Confirmación de asistencia (RSVP)
+                </li>
+                <li class="f-yes">
+                  <i class="fas fa-check"></i>Código de vestimenta y mapa
+                </li>
+                <li class="f-no">
+                  <i class="fas fa-xmark"></i>Galería de fotos interactiva
+                </li>
+                <li class="f-no">
+                  <i class="fas fa-xmark"></i>Nuestra historia / timeline
+                </li>
+                <li class="f-no">
+                  <i class="fas fa-xmark"></i>Música de fondo
+                </li>
+                <li class="f-no">
+                  <i class="fas fa-xmark"></i>Cortejo nupcial
+                </li>
+                <li class="f-no">
+                  <i class="fas fa-xmark"></i>Libro de visitas digital
+                </li>
+              </ul>
+              <a
+                href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20me%20interesa%20el%20paquete%20B%C3%A1sico"
+                target="_blank"
+                class="btn btn-plan"
+                >Elegir Básico</a
+              >
+            </div>
+
+            <!-- Especial (featured) -->
+            <div class="pricing-card pricing-featured reveal-up">
+              <div class="plan-badge">Más popular</div>
+              <div class="pricing-top">
+                <span class="plan-name">Especial</span>
+                <p class="plan-desc">
+                  La experiencia completa que todos merecen.
+                </p>
+                <div class="plan-price">
+                  <span class="price-sign">$</span>
+                  <span class="price-amount">650</span>
+                  <span class="price-curr">MXN</span>
+                </div>
+              </div>
+              <ul class="plan-features">
+                <li class="f-yes">
+                  <i class="fas fa-check"></i>Todo lo del plan Básico
+                </li>
+                <li class="f-yes">
+                  <i class="fas fa-check"></i>Galería de fotos interactiva
+                </li>
+                <li class="f-yes">
+                  <i class="fas fa-check"></i>Nuestra historia / timeline
+                </li>
+                <li class="f-yes">
+                  <i class="fas fa-check"></i>Agenda del día completa
+                </li>
+                <li class="f-yes">
+                  <i class="fas fa-check"></i>Sección del venue con fotos
+                </li>
+                <li class="f-yes">
+                  <i class="fas fa-check"></i>Mesa de regalos
+                </li>
+                <li class="f-yes">
+                  <i class="fas fa-check"></i>Preguntas frecuentes
+                </li>
+                <li class="f-no">
+                  <i class="fas fa-xmark"></i>Música de fondo
+                </li>
+                <li class="f-no">
+                  <i class="fas fa-xmark"></i>Cortejo nupcial
+                </li>
+                <li class="f-no">
+                  <i class="fas fa-xmark"></i>Libro de visitas digital
+                </li>
+              </ul>
+              <a
+                href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20me%20interesa%20el%20paquete%20Especial"
+                target="_blank"
+                class="btn btn-plan-featured"
+                >Elegir Especial</a
+              >
+            </div>
+
+            <!-- Premium -->
+            <div class="pricing-card reveal-right">
+              <div class="pricing-top">
+                <span class="plan-name">Premium</span>
+                <p class="plan-desc">
+                  La invitación de lujo absoluto para bodas inolvidables.
+                </p>
+                <div class="plan-price">
+                  <span class="price-sign">$</span>
+                  <span class="price-amount">950</span>
+                  <span class="price-curr">MXN</span>
+                </div>
+              </div>
+              <ul class="plan-features">
+                <li class="f-yes">
+                  <i class="fas fa-check"></i>Todo lo del plan Especial
+                </li>
+                <li class="f-yes">
+                  <i class="fas fa-check"></i>Reproductor de música con playlist
+                </li>
+                <li class="f-yes">
+                  <i class="fas fa-check"></i>Cortejo nupcial completo
+                </li>
+                <li class="f-yes">
+                  <i class="fas fa-check"></i>Libro de visitas interactivo
+                </li>
+                <li class="f-yes">
+                  <i class="fas fa-check"></i>Sección de viaje y hospedaje
+                </li>
+                <li class="f-yes">
+                  <i class="fas fa-check"></i>Cursor personalizado animado
+                </li>
+                <li class="f-yes">
+                  <i class="fas fa-check"></i>Pétalos y efectos visuales
+                </li>
+                <li class="f-yes">
+                  <i class="fas fa-check"></i>Confetti al confirmar asistencia
+                </li>
+                <li class="f-yes">
+                  <i class="fas fa-check"></i>Modo oscuro / claro
+                </li>
+                <li class="f-yes">
+                  <i class="fas fa-check"></i>Soporte prioritario y cambios
+                  extra
+                </li>
+              </ul>
+              <a
+                href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20me%20interesa%20el%20paquete%20Premium"
+                target="_blank"
+                class="btn btn-plan"
+                >Elegir Premium</a
+              >
+            </div>
+          </div>
+
+          <div class="pricing-note reveal-up">
+            <i class="fas fa-circle-info"></i>
+            Precios para invitaciones de boda en pesos mexicanos (MXN).
+            <a href="https://wa.me/521XXXXXXXXXX" target="_blank">Contáctame</a>
+            para quinceañeras, cumpleaños u otros eventos — armamos una
+            propuesta a tu medida.
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+     TESTIMONIALS
+    ============================================================ -->
+      <section class="section testi-section" id="testimonios">
+        <div class="container">
+          <header class="section-header reveal-up">
+            <span class="eyebrow">Lo que dicen nuestros clientes</span>
+            <h2 class="section-title">Historias que nos hacen felices</h2>
+          </header>
+
+          <div class="testi-grid">
+            <div class="testi-card reveal-up" style="--td: 0s">
+              <div class="testi-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="fas fa-star"></i>
+              </div>
+              <blockquote>
+                "Quedé completamente enamorada de la invitación. Mis invitados
+                no paraban de mandarme mensajes preguntando cómo la habíamos
+                hecho. ¡Es una obra de arte digital!"
+              </blockquote>
+              <div class="testi-author">
+                <div class="testi-avatar" style="--av: #c9a96e">M</div>
+                <div>
+                  <strong>Mariana García</strong>
+                  <span>Boda Premium · Agosto 2024</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testi-card reveal-up" style="--td: 0.12s">
+              <div class="testi-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="fas fa-star"></i>
+              </div>
+              <blockquote>
+                "El proceso fue súper sencillo y el resultado superó todas mis
+                expectativas. Tener el RSVP automático fue una bendición — ¡ya
+                no tuve que perseguir a nadie!"
+              </blockquote>
+              <div class="testi-author">
+                <div class="testi-avatar" style="--av: #e879a0">S</div>
+                <div>
+                  <strong>Sofía Ramírez</strong>
+                  <span>Quinceañera · Noviembre 2024</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testi-card reveal-up" style="--td: 0.24s">
+              <div class="testi-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="fas fa-star"></i>
+              </div>
+              <blockquote>
+                "Lo que más nos gustó fue la atención personalizada. Hicieron
+                varios cambios sin problema y entregaron antes del tiempo
+                prometido. ¡Totalmente recomendados!"
+              </blockquote>
+              <div class="testi-author">
+                <div class="testi-avatar" style="--av: #7c3aed">A</div>
+                <div>
+                  <strong>Andrés &amp; Paola Mendoza</strong>
+                  <span>Boda Especial · Enero 2025</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+     FAQ
+    ============================================================ -->
+      <section class="section faq-section" id="faq">
+        <div class="container">
+          <header class="section-header reveal-up">
+            <span class="eyebrow">¿Tienes dudas?</span>
+            <h2 class="section-title">Preguntas frecuentes</h2>
+            <p class="section-sub">
+              Si no encuentras lo que buscas, escríbenos por WhatsApp y te
+              respondemos en minutos.
+            </p>
+          </header>
+
+          <div class="faq-cols">
+            <div class="faq-col">
+              <div class="faq-item reveal-up" style="--fd: 0s">
+                <button class="faq-q" aria-expanded="false">
+                  ¿Cuánto tiempo tardan en entregar?<i
+                    class="fas fa-plus faq-icon"
+                  ></i>
+                </button>
+                <div class="faq-a">
+                  <p>
+                    El tiempo estándar es de 48 horas hábiles a partir de que
+                    nos compartas todos los datos del evento. Para proyectos
+                    urgentes podemos acelerar el proceso — contáctanos y lo
+                    coordinamos.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-item reveal-up" style="--fd: 0.06s">
+                <button class="faq-q" aria-expanded="false">
+                  ¿Cuántas revisiones incluye?<i
+                    class="fas fa-plus faq-icon"
+                  ></i>
+                </button>
+                <div class="faq-a">
+                  <p>
+                    Todos los paquetes incluyen revisiones ilimitadas durante el
+                    proceso de diseño. Queremos que quedes 100% satisfecho(a)
+                    antes de publicar tu invitación.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-item reveal-up" style="--fd: 0.12s">
+                <button class="faq-q" aria-expanded="false">
+                  ¿Cómo comparto la invitación con mis invitados?<i
+                    class="fas fa-plus faq-icon"
+                  ></i>
+                </button>
+                <div class="faq-a">
+                  <p>
+                    Recibirás un link único (URL) que puedes compartir por
+                    WhatsApp, redes sociales o email. También puedes generar un
+                    QR code para imprimir en papelería física si así lo
+                    prefieres.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-item reveal-up" style="--fd: 0.18s">
+                <button class="faq-q" aria-expanded="false">
+                  ¿Por cuánto tiempo estará disponible?<i
+                    class="fas fa-plus faq-icon"
+                  ></i>
+                </button>
+                <div class="faq-a">
+                  <p>
+                    Tu invitación estará disponible hasta el evento y por lo
+                    menos 3 meses después. Si necesitas que permanezca más
+                    tiempo, lo extendemos sin costo adicional.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-col">
+              <div class="faq-item reveal-up" style="--fd: 0.24s">
+                <button class="faq-q" aria-expanded="false">
+                  ¿Puedo hacer cambios después de publicada?<i
+                    class="fas fa-plus faq-icon"
+                  ></i>
+                </button>
+                <div class="faq-a">
+                  <p>
+                    ¡Sí! Cambios menores como ajustar un horario, dirección o
+                    nombre están incluidos. Cambios mayores que impliquen
+                    rediseño tienen un cargo que acordamos contigo primero.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-item reveal-up" style="--fd: 0.3s">
+                <button class="faq-q" aria-expanded="false">
+                  ¿Cómo funciona el RSVP?<i class="fas fa-plus faq-icon"></i>
+                </button>
+                <div class="faq-a">
+                  <p>
+                    Tus invitados llenan un formulario dentro de la invitación
+                    con su nombre y confirmación de asistencia. Recibes un
+                    resumen organizado de todas las respuestas en tiempo real.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-item reveal-up" style="--fd: 0.36s">
+                <button class="faq-q" aria-expanded="false">
+                  ¿Puedo ver una demo antes de decidirme?<i
+                    class="fas fa-plus faq-icon"
+                  ></i>
+                </button>
+                <div class="faq-a">
+                  <p>
+                    ¡Por supuesto! Tenemos demos de cada paquete disponibles.
+                    Escríbenos por WhatsApp y te compartimos los links para que
+                    los explores sin compromiso.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-item reveal-up" style="--fd: 0.42s">
+                <button class="faq-q" aria-expanded="false">
+                  ¿Cuáles son las formas de pago?<i
+                    class="fas fa-plus faq-icon"
+                  ></i>
+                </button>
+                <div class="faq-a">
+                  <p>
+                    Aceptamos transferencia bancaria (SPEI) y efectivo.
+                    Trabajamos con el 50% de anticipo al inicio y el resto al
+                    aprobar el diseño final.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+     FINAL CTA
+    ============================================================ -->
+      <section class="cta-section">
+        <div class="cta-bg" aria-hidden="true">
+          <div class="cta-orb cta-orb-1"></div>
+          <div class="cta-orb cta-orb-2"></div>
+        </div>
+        <div class="cta-inner">
+          <div class="cta-ornament" aria-hidden="true">✦</div>
+          <h2 class="cta-heading">¿Listo para crear la invitación perfecta?</h2>
+          <p class="cta-sub">
+            Cuéntanos de tu evento y en menos de 24 horas tienes una propuesta
+            sin compromiso y sin costo.
+          </p>
+          <div class="cta-actions">
+            <a
+              href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20me%20interesa%20cotizar%20una%20invitaci%C3%B3n%20digital"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-wa-lg"
+            >
+              <i class="fab fa-whatsapp"></i> Escribir por WhatsApp
+            </a>
+            <a href="#precios" class="btn btn-ghost">Ver paquetes</a>
+          </div>
+          <div class="cta-trust-pills">
+            <span><i class="fas fa-check"></i> Entrega en 48 horas</span>
+            <span><i class="fas fa-check"></i> Revisiones sin costo</span>
+            <span><i class="fas fa-check"></i> Sin compromiso inicial</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============================================================
+     FOOTER
+    ============================================================ -->
+    <footer class="footer">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <i class="fas fa-envelope-open-heart"></i>
+            <!-- PERSONALIZAR: Nombre del negocio -->
+            <span>Momentos Digitales</span>
+          </div>
+          <p class="footer-tagline">
+            Invitaciones digitales hechas con amor para cada momento especial de
+            tu vida.
+          </p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Servicios</h4>
+          <ul>
+            <li><a href="#servicios">Bodas</a></li>
+            <li><a href="#servicios">Quinceañeras</a></li>
+            <li><a href="#servicios">XV Años</a></li>
+            <li><a href="#servicios">Cumpleaños</a></li>
+            <li><a href="#servicios">Baby Shower</a></li>
+            <li><a href="#servicios">Corporativo</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Paquetes de Boda</h4>
+          <ul>
+            <li><a href="#precios">Básico — $350 MXN</a></li>
+            <li><a href="#precios">Especial — $650 MXN</a></li>
+            <li><a href="#precios">Premium — $950 MXN</a></li>
+            <li>
+              <a href="https://wa.me/521XXXXXXXXXX" target="_blank"
+                >Paquete personalizado</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-contact">
+          <h4>Contacto</h4>
+          <a
+            href="https://wa.me/521XXXXXXXXXX"
+            target="_blank"
+            class="footer-wa-link"
+          >
+            <i class="fab fa-whatsapp"></i>
+            <!-- PERSONALIZAR: Número de WhatsApp visible -->
+            +52 1 XX XXXX XXXX
+          </a>
+          <p class="footer-hours">
+            <i class="fas fa-clock"></i>
+            Lunes a Sábado · 9AM – 8PM
+          </p>
+          <p class="footer-location">
+            <i class="fas fa-location-dot"></i>
+            <!-- PERSONALIZAR: Ciudad -->
+            México
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          © 2025 Momentos Digitales. Hecho con
+          <i class="fas fa-heart" style="color: var(--gold)"></i> en México.
+        </p>
+        <p>Precios en pesos mexicanos. Sujetos a cambio sin previo aviso.</p>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a
+      href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20me%20interesa%20cotizar%20una%20invitaci%C3%B3n%20digital"
+      target="_blank"
+      rel="noopener"
+      class="wa-fab"
+      aria-label="Cotizar por WhatsApp"
+    >
+      <i class="fab fa-whatsapp"></i>
+      <span class="wa-fab-tip">¡Cotiza aquí!</span>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
